@@ -1,0 +1,2 @@
+$ git log
+fatal: your current branch 'master' does not have any commits yet
