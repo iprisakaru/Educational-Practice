@@ -1,0 +1,3 @@
+1 request: we searched music of Cardi B and found 50 results
+2 request: we searched movies with Thomas Hanks and found 6 results
+3 request: we searched music in russian of MORGENSTERN with no explicit and found 50 results/

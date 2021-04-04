@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "fa20c14a-199c-4d5c-b16e-dd90f33331cb",
+		"name": "iTunes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Artist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://itunes.apple.com/search/?term=Cardi B&media=music",
+					"protocol": "https",
+					"host": [
+						"itunes",
+						"apple",
+						"com"
+					],
+					"path": [
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "Cardi B"
+						},
+						{
+							"key": "media",
+							"value": "music"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Artist and Media",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://itunes.apple.com/search/?media=movie&term=Hanks",
+					"protocol": "https",
+					"host": [
+						"itunes",
+						"apple",
+						"com"
+					],
+					"path": [
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "country ",
+							"value": "us",
+							"disabled": true
+						},
+						{
+							"key": "media",
+							"value": "movie"
+						},
+						{
+							"key": "term",
+							"value": "Hanks"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Artist and Country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://itunes.apple.com/search/?media=music&explicit=No&country=ru&term=MORGENSHTERN",
+					"protocol": "https",
+					"host": [
+						"itunes",
+						"apple",
+						"com"
+					],
+					"path": [
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "media",
+							"value": "music"
+						},
+						{
+							"key": "explicit",
+							"value": "No"
+						},
+						{
+							"key": "country",
+							"value": "ru"
+						},
+						{
+							"key": "term",
+							"value": "MORGENSHTERN"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

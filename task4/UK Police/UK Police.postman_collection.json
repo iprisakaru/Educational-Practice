@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "5ebd8bf3-2905-4e87-b3ab-d50b01627f5a",
+		"name": "UK Police",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crimes by data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data.police.uk/api/crime-categories?date =2011-08",
+					"protocol": "https",
+					"host": [
+						"data",
+						"police",
+						"uk"
+					],
+					"path": [
+						"api",
+						"crime-categories"
+					],
+					"query": [
+						{
+							"key": "date ",
+							"value": "2011-08"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "People by rank and names",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data.police.uk/api/forces/leicestershire/people?name=Roger Bannister&rank=Assistant Chief Officer (Crime)",
+					"protocol": "https",
+					"host": [
+						"data",
+						"police",
+						"uk"
+					],
+					"path": [
+						"api",
+						"forces",
+						"leicestershire",
+						"people"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Roger Bannister"
+						},
+						{
+							"key": "rank",
+							"value": "Assistant Chief Officer (Crime)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "People by rank",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data.police.uk/api/leicestershire/NC04/people?rank=PCSO",
+					"protocol": "https",
+					"host": [
+						"data",
+						"police",
+						"uk"
+					],
+					"path": [
+						"api",
+						"leicestershire",
+						"NC04",
+						"people"
+					],
+					"query": [
+						{
+							"key": "rank",
+							"value": "PCSO"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

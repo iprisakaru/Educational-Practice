@@ -1,0 +1,4 @@
+1 request: request with param "Vlad"
+2 request: request with param "Ilya" and parametr "idea". Responce - rude phrase with our params in it.
+3 request: request like in point 2, but with new param "Ilya" 
+4 requeat: request with 3 params: "Levakov", "maths", "do" and parametr "dosomething" 

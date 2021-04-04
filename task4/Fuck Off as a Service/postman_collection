@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "4bef4cec-63da-4417-88d8-e20a81be2cbf",
+		"name": "up1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.foaas.com/Vlad",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.foaas.com/Vlad",
+					"protocol": "https",
+					"host": [
+						"www",
+						"foaas",
+						"com"
+					],
+					"path": [
+						"Vlad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.foaas.com/idea/Ilya",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.foaas.com/idea/Ilya",
+					"protocol": "https",
+					"host": [
+						"www",
+						"foaas",
+						"com"
+					],
+					"path": [
+						"idea",
+						"Ilya"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.foaas.com/mornin/Galya",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.foaas.com/mornin/Galya",
+					"protocol": "https",
+					"host": [
+						"www",
+						"foaas",
+						"com"
+					],
+					"path": [
+						"mornin",
+						"Galya"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.foaas.com/dosomething/Do/maths/Levakov",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.foaas.com/dosomething/Do/maths/Levakov",
+					"protocol": "https",
+					"host": [
+						"www",
+						"foaas",
+						"com"
+					],
+					"path": [
+						"dosomething",
+						"Do",
+						"maths",
+						"Levakov"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
