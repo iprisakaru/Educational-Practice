@@ -1,5 +1,7 @@
 *.iml
+
 .DS_Store/
+
 .idea/
-.Educational-Practice.iml/
+
 out/
