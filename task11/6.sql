@@ -1,0 +1,1 @@
+select u.name, item_info.name_vendor, item_info.long_info from item_info as p join user_info as u on p.id = u.id where name = "Anatoly Levakov" order by valid_to;

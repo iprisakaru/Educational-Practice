@@ -1,0 +1,1 @@
+select distinct name_vendor from item_info as p join vendor_info as v on p.creator_id = v.vendor_id where valid_to >= current_date()
