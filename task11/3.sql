@@ -1,0 +1,1 @@
+select * from item_info where item_info.valid_to LIKE '2021-09-01%'

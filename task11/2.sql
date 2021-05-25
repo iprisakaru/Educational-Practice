@@ -1,0 +1,1 @@
+select v.vendor_name, p.* from item_info as p join vendor_info as v on p.creator_id=v.vendor_id where vendor_name = "Spotify Ltd.";

@@ -1,0 +1,1 @@
+select * from item_info as p join review_info as r on p.id = r.user_id where JSON_LENGTH(review) > 1;
